@@ -1,0 +1,17 @@
+{
+    "page_title": "Bedrock KnowledgeBases with Multimodal LLMs",
+    "start_message": "I am a GenAI powered chatbot, how can I help you?",
+    "bedrock_region": "us-west-2",
+    "claude_model_params": {
+        "anthropic_version": "bedrock-2023-05-31",
+        "max_tokens": 4096,
+        "temperature": 0.0,
+        "top_k": 100
+    },
+    "kb_configs": {"vectorSearchConfiguration": {"numberOfResults": 5}},
+    "multimodal_llms": {
+        "Anthropic Claude 3 Haiku": "anthropic.claude-3-haiku-20240307-v1:0",
+        "Anthropic Claude 3 Sonnet": "anthropic.claude-3-sonnet-20240229-v1:0",
+        "Anthropic Claude 3 Opus": "anthropic.claude-3-opus-20240229-v1:0"
+    }
+}
